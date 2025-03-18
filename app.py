@@ -240,7 +240,6 @@ def generar_pdf(factura_data, numero_factura, total):
     elements.append(Paragraph(EMPRESA["nombre"], header_style))
     elements.append(Paragraph(EMPRESA["direccion"], styles['Normal']))
     elements.append(Paragraph(f"Tel: {EMPRESA['telefono']}", styles['Normal']))
-    elements.append(Paragraph(f"RNC: {EMPRESA['rnc']}", styles['Normal']))
     elements.append(Spacer(1, 12))
     
     elements.append(Paragraph(f"Factura N°: {numero_factura}", styles['Heading3']))
