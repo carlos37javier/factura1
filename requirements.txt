@@ -8,3 +8,4 @@ pyinstaller-hooks-contrib==2025.1
 pywin32-ctypes==0.2.3
 reportlab==4.3.1
 setuptools==76.0.0
+shortuuid
